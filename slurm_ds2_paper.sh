@@ -80,6 +80,9 @@ source ~/.bashrc
 # Make script bail out after first error
 set -e
 
+
+alias proj="cd ~/deepspeech.pytorch"
+
 # Make your own folder on the node's scratch disk
 # N.B. disk could be at /disk/scratch_big, or /disk/scratch_fast. Check
 # yourself using an interactive session, or check the docs:
